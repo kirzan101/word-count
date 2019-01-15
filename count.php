@@ -6,6 +6,7 @@
 // Get the contents of alice.txt
 $file = file_get_contents("alice.txt");
 
+// Replace the contents to lower case
 $file = strtolower($file);
 
 $pattern = "/[^a-z0-9 ]/i";
